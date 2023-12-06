@@ -1,0 +1,52 @@
+
+EQUIREMENTS
+
+------------laravel-------------
+filamentphp-
+composer require doctrine/dbal
+composer require guzzlehttp/guzzle
+
+-------------npm----------------
+npm install @ryangjchandler/alpine-tooltip
+
+
+
+https://filamentphp.com/docs/3.x/panels/resources/getting-started
+
+php artisan make:filament-resource Customer
+
+php artisan make:model ModelName --migration
+-------------------------------------------------
+
+php artisan make:controller CustomerTokenController
+--------------------------------------------------
+
+insert into user_types(id,usertypename)  values('552e3731-9f8d-4532-902e-910e2aa74cd0','GUEST');
+
+ALTER TABLE products rename column "whereAt" to where_at;
+
+
+
+https://blade-ui-kit.com/blade-icons?set=1&search=c#search
+
+https://v2.filamentphp.com/tricks/aggregate-data-in-table-footer
+
+
+https://github.com/codewithdary/laravel8-tailwindcss2
+
+
+protected static string $view = 'filament.resources.users.pages.view-user';
+
+ALTER TABLE accounts ADD CONSTRAINT unique_product_id UNIQUE (product_id);
+
+
+https://stackoverflow.com/questions/77270213/laravel-filament-custom-page-with-repeater
+
+private ?string $val = null;
+
+
+
+----------------------------------
+https://www.reddit.com/r/laravel/comments/7dvzkg/noob_question_what_is_the_difference_between/
+
+https://medium.com/@antoine.lame/laravel-asynchronous-and-concurrent-http-requests-9c8e3e6d36bd
