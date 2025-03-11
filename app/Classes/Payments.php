@@ -3,6 +3,8 @@
 
 namespace App\Classes;
 
+define("ORG_NAME", "Orgarnisation Name");
+
 use App\Models\Account;
 // use App\Models\User;
 // use App\Models\Product;
@@ -243,7 +245,7 @@ class Payments{
     */ 
     public function sendToken(){
 
-        $msg = sprintf("Caino Africa,\nToken for account number: %s. Token: %s.", $this->props['acn'], $this->customerToken);  //ToDo Token body  
+        $msg = sprintf(".ORG_NAME.,\nToken for account number: %s. Token: %s.", $this->props['acn'], $this->customerToken);  //ToDo Token body  
 
         $sender = new Smsser();
 
